@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
+@page {
+    size: A4;
+}
+
+@media print {
+    #noprint {
+        display: none;
+    }
+}
+
+input {
+    padding: 11px 16px;
+    background: #273045;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    color: #D0D2D6;
+}
+
+button {
+    padding: 13px 26px;
+    background-color: #FEA82F;
+    color: #273045;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    background-color: #171D31;
+}
+
+.canvas {
+    width: 100%;
+    position: relative;
+}
+
+.barcode-item {
+    float: left;
+    position: absolute;
+    left: 75px;
+    bottom: 34px;
+    z-index: 1000;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.barcode-number {
+    float: left;
+    position: absolute;
+    left: 450px;
+    bottom: 34px;
+    z-index: 1000;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Oxygen Mono', monospace;
+    letter-spacing: 2px;
+}
+
+img {
+    width: 18.12cm !important;
+}
+
+svg {
+    background-color: transparent !important;
+}
