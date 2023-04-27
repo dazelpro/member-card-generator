@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Barcode Generate</title>
+	<link rel="stylesheet" href="./views/home.css" />
+</head>
+
+<body class="bg">
+	<div id="noprint">
+		<input type="number" name="qty" id="qty" placeholder="Qty Barcode" />
+		<button onclick="generate()">Generate</button>
+		<button onclick="reset()">Reset</button>
+		<button onclick="window.print()">Print</button>
+	</div>
+	<div id="barcode"></div>
+	<script src="./barcode.js"></script>
+	<script src="./script.js"></script>
+</body>
+
+</html>
