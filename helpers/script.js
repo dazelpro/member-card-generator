@@ -10,7 +10,7 @@ function generate() {
 				<div class="canvas">
 					<svg id="barcode${i}" class="barcode-item"></svg>
 					<div class="barcode-number">${identity}${random}</div>
-					<img src="assets/images/template.jpg" alt="template">
+					<img src="assets/images/image.jpg" alt="template">
 				</div>
 			`;
 			JsBarcode(`#barcode${i}`, `${identity}${random}`, {

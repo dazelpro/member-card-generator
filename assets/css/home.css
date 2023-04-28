@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/ocr-a-extended');
 @page {
     size: A4;
 }
@@ -8,6 +8,10 @@
     #noprint {
         display: none;
     }
+}
+
+#noprint {
+    padding-bottom: 20px;
 }
 
 input {
@@ -50,13 +54,13 @@ body {
 .barcode-number {
     float: left;
     position: absolute;
-    left: 450px;
-    bottom: 34px;
+    left: 370px;
+    bottom: 45px;
     z-index: 1000;
     color: #FFFFFF;
-    font-weight: bold;
-    font-family: 'Oxygen Mono', monospace;
-    letter-spacing: 2px;
+    font-family: 'OCR A Extended', sans-serif;
+    font-size: 18px;
+    letter-spacing: 4px;
 }
 
 img {
